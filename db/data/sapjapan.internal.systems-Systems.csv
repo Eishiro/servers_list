@@ -1,0 +1,9 @@
+﻿ID,SOLUTION,HOST_NAME,IP_ADDRESS,SID,INSTANCE_NUM,WEB_URL,SYSTEM_ADMINISTRATOR,USER_INFO,COMMENT
+1,Solution Manager 7.2 ,dummyhost,dummy ip,CHK,0,https://<path>,Eishiro Kinoshita,user and pass,some commenct
+2,Solution Manager 7.2 ,dummyhost,dummy ip,HEN,0,https://<path>,Eishiro Kinoshita,user and pass,some commenct
+3,HANA 1.0,dummyhost,dummy ip,EGG,0,https://<path>,Eishiro Kinoshita,user and pass,some commenct
+4,HANA Cockpit,dummyhost,dummy ip,N/A,0,https://<path>,Eishiro Kinoshita,user and pass,some commenct
+5,XSA ,dummyhost,dummy ip,N/A,0,https://<path>,Eishiro Kinoshita,user and pass,some commenct
+6,BW on HANA,dummyhost,dummy ip,BOH,0,https://<path>,Eishiro Kinoshita,user and pass,some commenct
+7,S4HANA,dummyhost,dummy ip,E6H,0,https://<path>,Eishiro Kinoshita,user and pass,some commenct
+8,HANA,dummyhost,dummy ip,BOD,0,https://<path>,Eishiro Kinoshita,user and pass,some commenct
