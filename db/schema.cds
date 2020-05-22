@@ -1,6 +1,7 @@
 namespace sapjapan.internal.systems;
 
 entity Systems {
+    @Common.Label   : 'UUID'
     key ID          : Integer;
     solution        : String;
     host_name       : String;
