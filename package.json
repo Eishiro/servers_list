@@ -1,15 +1,33 @@
 {
-  "name": "internal_server",
-  "version": "1.0.0",
-  "description": "A simple CAP project.",
-  "repository": "<Add your repository here>",
-  "license": "UNLICENSED",
-  "private": true,
-  "dependencies": {
-    "@sap/cds": "^3",
-    "express": "^4"
-  },
-  "scripts": {
-    "start": "npx cds run"
-  }
+    "name": "internal_server",
+    "version": "1.0.0",
+    "description": "A simple CAP project.",
+    "repository": "<Add your repository here>",
+    "license": "UNLICENSED",
+    "private": true,
+    "dependencies": {
+        "@sap/cds": "^3",
+        "@sap/hana-client": "^2.4.196",
+        "express": "^4",
+        "hdb": "^0.18.0"
+    },
+    "scripts": {
+        "start": "cds run --in-memory?",
+        "watch": "cds watch"
+    },
+    "cds": {
+        "hana": {
+            "deploy-format": "hdbtable",
+            "syntax": "hdi"
+        },
+        "requires": {
+            "db": {
+                "model": [
+                    "db",
+                    "srv"
+                ],
+                "kind": "hana"
+            }
+        }
+    }
 }
